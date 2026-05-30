@@ -344,7 +344,7 @@ Question: {question}
 
 Answer:"""
 
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content(prompt)
     return response.text, docs
 
@@ -360,7 +360,7 @@ st.markdown(f"""
     <p>AI-powered financial report analysis with cited, grounded answers</p>
     <br>
     <span class="finsight-badge">RAG</span>
-    <span class="finsight-badge">Gemini 2.5</span>
+    <span class="finsight-badge">Gemini 2.0</span>
     <span class="finsight-badge">ChromaDB</span>
     <span class="finsight-badge">{len(companies)} {'report' if len(companies)==1 else 'reports'} indexed</span>
 </div>
