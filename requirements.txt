@@ -10,3 +10,4 @@ pandas
 tabulate
 google-generativeai
 sentence-transformers
+torchvision
