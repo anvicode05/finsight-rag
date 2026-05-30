@@ -3,7 +3,7 @@
 AI-powered RAG system that lets you upload any financial PDF and ask questions in plain English — with cited, grounded answers.
 
 ## Live Demo
-[Click here to try it →](#) *(add Streamlit Cloud link after deployment)*
+[Click here to try it →](https://finsight-financial-rag.streamlit.app/)
 
 ## How it works
 1. Upload any financial PDF (annual report, balance sheet, earnings)
