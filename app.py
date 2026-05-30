@@ -269,7 +269,7 @@ def load_embedder():
 def load_vectorstore():
     embedder = load_embedder()
     return Chroma(
-        persist_directory="./chroma_db",
+      persist_directory="./chroma_db",
         embedding_function=embedder,
         collection_name="financial_reports"
     )
